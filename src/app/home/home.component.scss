@@ -1,0 +1,48 @@
+.family-tree {
+  background-image: url(/assets/images/family.png);
+  background-size: cover;
+  height: 500px;
+}
+.text-orange {
+  color: #f28705;
+}
+.text-blue {
+  color: #0367a6;
+}
+.text-red {
+  color: #bf0413;
+}
+.text-purple {
+  color: #781f97;
+}
+.middle-content {
+  background: linear-gradient(
+    to bottom,
+    #ffffff 0%,
+    #ffffff 20%,
+    #ede6dd 20%,
+    #ede6dd 100%
+  );
+}
+.comment-section {
+  background: linear-gradient(
+    to top,
+    #ffffff 0%,
+    #ffffff 30%,
+    #a4b3ba 30%,
+    #a4b3ba 100%
+  );
+}
+.fs-13 {
+  font-size: 13px;
+  line-height: 1.73;
+}
+.reviewer {
+  font-size: 14px;
+  font-weight: bold;
+  color: #0367a6;
+}
+.rating {
+  color: #f28705;
+}
+

@@ -1,0 +1,80 @@
+<div class="header-main bg-white shadow-sm px-5">
+  <div class="container-fluid">
+    <div class="d-flex justify-content-between">
+      <div class="d-flex align-items-center">
+        <img
+          class="img-fluid logo-image"
+          src="assets/images/Logo.svg"
+          alt="logo-image"
+        />
+      </div>
+
+      <div class="d-flex align-items-center">
+        <nav class="navbar navbar-expand-lg">
+          <div class="container-fluid">
+            <!-- Links -->
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon dark"
+                ><i class="las la-bars"></i
+              ></span>
+            </button>
+            <div class="navbar-collapse collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav w-100">
+                <li class="nav-item">
+                  <a
+                    class="nav-link"
+                    routerLink="/home"
+                    [ngClass]="{ active: router.url == '/home' }"
+                    >Home</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link"
+                    routerLink="/services"
+                    [ngClass]="{ active: router.url == '/services' }"
+                    >Services</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link"
+                    routerLink="/contactus"
+                    [ngClass]="{ active: router.url == '/contactus' }"
+                    >Contact Us</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+      <div class="d-flex align-items-center">
+        <ul class="align-items-center tab-block w-100 d-flex left-header-menu">
+          <li class="nav-item">
+            <div class="input-group search-grid">
+              <input
+                type="text"
+                class="form-control search-control"
+                placeholder="Type here.."
+                aria-label="Type here.."
+                aria-describedby="basic-addon2"
+              />
+              <span class="input-group-text" id="basic-addon2"
+                ><i class="las la-search"></i
+              ></span>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,62 @@
+.logo-image {
+  height: 60px;
+  width: 100%;
+  margin: 0.5rem 0;
+}
+
+.search-control {
+  background: #fafafc;
+  border-radius: 20px;
+  border: 1px solid #f0f1f3;
+  font-size: 0.9rem;
+  border-right: none;
+  height: 36px;
+  color: #acacac;
+}
+.search-grid .input-group-text {
+  background-color: #fafafc;
+  border: 1px solid #f0f1f3;
+  border-radius: 20px;
+  padding: 0;
+  height: 36px;
+  font-size: 1.5rem;
+  padding-right: 0.5rem;
+}
+::ng-deep.navbar {
+  padding: 0;
+  background-color: #fff;
+  position: relative !important;
+}
+input:focus + .input-group-text {
+  border-color: var(--main) !important;
+}
+.form-control:focus {
+  color: #212529;
+  background-color: #fff;
+  border-color: var(--main) !important;
+  outline: 0;
+  box-shadow: none;
+}
+.navbar-expand-lg .navbar-nav {
+  justify-content: center;
+}
+.active.nav-link {
+  color: #8a6e4b !important;
+  font-weight: 600;
+  border-bottom: 3px solid #8a6e4b !important ;
+}
+.navbar-nav .nav-link {
+  padding: 1rem;
+  color: #505565;
+  border-bottom: 3px solid transparent;
+  font-size: 0.95rem;
+}
+.left-header-menu {
+  list-style: none;
+  margin-bottom: 0;
+
+  padding-inline-start: 30px;
+}
+.nav-item {
+  font-size: 20px !important;
+}

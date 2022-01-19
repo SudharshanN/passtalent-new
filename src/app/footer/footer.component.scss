@@ -1,0 +1,38 @@
+footer {
+  background-color: #32363a;
+  color: #fff;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  .copy-right {
+    font-size: 13px;
+  }
+  ul {
+    padding-inline-start: 0px;
+    list-style: none;
+    li {
+      margin-bottom: 0.65rem;
+      display: inline;
+      margin-right: 30px;
+      a {
+        font-size: 16px;
+        color: #fff;
+        text-decoration: none;
+        &:hover,
+        &.active {
+          color: #b76e79;
+        }
+      }
+    }
+  }
+}
+
+.social-image {
+  margin: 0.25rem 0.5rem;
+}
+
+@media (max-width: 767px) {
+  footer {
+    padding-top: 20px;
+  }
+}
