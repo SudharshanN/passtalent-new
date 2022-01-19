@@ -91,10 +91,10 @@ export class HomeComponent implements OnInit {
         items: 4
       },
       760: {
-        items: 6
+        items: 5
       },
       1000: {
-        items: 8
+        items: 6
       }
     },
     nav: true

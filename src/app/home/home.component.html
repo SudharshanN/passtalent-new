@@ -1,13 +1,3 @@
-<!-- <owl-carousel-o [options]="customOptions">
-    <ng-container *ngFor="let slide of dynamicSlides">
-       <ng-template carouselSlide>
-          <img [src]="slide.src" [alt]="slide.alt" class="h-200">
-       </ng-template>
-    </ng-container>
-</owl-carousel-o>
-<div>
-    Test
-</div> -->
 <div class="p-0">
   <div class="px-5">
     <div class="row family-tree">
@@ -38,24 +28,372 @@
     <div class="row m-0">
       <div class="px-5 middle-content">
         <div class="supported">
-            <div class="shadow-lg bg-white py-3 px-4">
-                <h5 class="pb-2">Supported By</h5>
-                <owl-carousel-o [options]="customOptions">
-                    <ng-container *ngFor="let slide of dynamicSlides">
-                       <ng-template carouselSlide>
-                        <div class="card" style="width: 10rem;">
-                            <div class="card-body">
-                                <img class="rounded mx-auto d-block" [src]="slide.src" [alt]="slide.alt" style="width: 100px;">
-                            </div>
-                          </div>
-                       </ng-template>
-                    </ng-container>
-                </owl-carousel-o>
-            </div>
-            
+          <div class="shadow-lg bg-white py-3 px-4">
+            <h5 class="pb-2">Supported By</h5>
+            <owl-carousel-o [options]="customOptions">
+              <ng-container *ngFor="let slide of dynamicSlides">
+                <ng-template carouselSlide>
+                  <div class="card" style="width: 10rem">
+                    <div class="card-body">
+                      <img
+                        class="rounded mx-auto d-block"
+                        [src]="slide.src"
+                        [alt]="slide.alt"
+                        style="width: 100px"
+                      />
+                    </div>
+                  </div>
+                </ng-template>
+              </ng-container>
+            </owl-carousel-o>
+          </div>
         </div>
-        <div>
+        <div class="pb-5">
+          <div class="d-flex justify-content-center py-5">
             <h5>Use below options to get idea on future education</h5>
+          </div>
+          <div class="what-next">
+            <div class="what-next-train">
+              <div class="process">
+                <div class="process-row">
+                  <div class="process-step">
+                    <button type="button" class="btn btn-warning btn-circle">
+                      <div>
+                        <i class="las la-school la-2x"></i>
+                      </div>
+                    </button>
+                    <p>School</p>
+                  </div>
+                  <div class="process-step">
+                    <button type="button" class="btn btn-info btn-circle">
+                      <i class="las la-certificate la-2x"></i>
+                    </button>
+                    <p>Under Graduation</p>
+                  </div>
+                  <div class="process-step">
+                    <button type="button" class="btn btn-danger btn-circle">
+                      <i class="las la-graduation-cap la-2x"></i>
+                    </button>
+                    <p>Graduation</p>
+                  </div>
+                  <div class="process-step">
+                    <button type="button" class="btn btn-dark btn-circle">
+                      <i class="las la-user-graduate la-2x"></i>
+                    </button>
+                    <p>Post Graduation</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="what-next-content">
+              <div class="row my-2">
+                <div class="col-sm-3 p-0">
+                  <div class="card" style="width: 16rem">
+                    <div class="card-header">Featured</div>
+                    <ul class="list-group list-group-flush">
+                      <li
+                        class="list-group-item d-flex justify-content-between align-items-center"
+                      >
+                        <a href="#">Cras justo odio</a>
+                        <i class="las la-angle-right"></i>
+                      </li>
+                      <li
+                        class="list-group-item d-flex justify-content-between align-items-center"
+                      >
+                        <a href="#">Dapibus ac facilisis in</a>
+                        <i class="las la-angle-right"></i>
+                      </li>
+                      <li
+                        class="list-group-item d-flex justify-content-between align-items-center"
+                      >
+                        <a href="#">Vestibulum at eros</a>
+                        <i class="las la-angle-right"></i>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="col-sm-3 p-0">
+                  <div class="card" style="width: 16rem">
+                    <div class="card-header">Featured</div>
+                    <ul class="list-group list-group-flush">
+                      <li
+                        class="list-group-item d-flex justify-content-between align-items-center"
+                      >
+                        <a href="#">Cras justo odio</a>
+                        <i class="las la-angle-right"></i>
+                      </li>
+                      <li
+                        class="list-group-item d-flex justify-content-between align-items-center"
+                      >
+                        <a href="#">Dapibus ac facilisis in</a>
+                        <i class="las la-angle-right"></i>
+                      </li>
+                      <li
+                        class="list-group-item d-flex justify-content-between align-items-center"
+                      >
+                        <a href="#">Vestibulum at eros</a>
+                        <i class="las la-angle-right"></i>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="col-sm-3 p-0">
+                  <div class="card" style="width: 16rem">
+                    <div class="card-header">Featured</div>
+                    <ul class="list-group list-group-flush">
+                      <li
+                        class="list-group-item d-flex justify-content-between align-items-center"
+                      >
+                        <a href="#">Cras justo odio</a>
+                        <i class="las la-angle-right"></i>
+                      </li>
+                      <li
+                        class="list-group-item d-flex justify-content-between align-items-center"
+                      >
+                        <a href="#">Dapibus ac facilisis in</a>
+                        <i class="las la-angle-right"></i>
+                      </li>
+                      <li
+                        class="list-group-item d-flex justify-content-between align-items-center"
+                      >
+                        <a href="#">Vestibulum at eros</a>
+                        <i class="las la-angle-right"></i>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="col-sm-3 p-0">
+                  <div class="card" style="width: 16rem">
+                    <div class="card-header">Featured</div>
+                    <ul class="list-group list-group-flush">
+                      <li
+                        class="list-group-item d-flex justify-content-between align-items-center"
+                      >
+                        <a href="#">Cras justo odio</a>
+                        <i class="las la-angle-right"></i>
+                      </li>
+                      <li
+                        class="list-group-item d-flex justify-content-between align-items-center"
+                      >
+                        <a href="#">Dapibus ac facilisis in</a>
+                        <i class="las la-angle-right"></i>
+                      </li>
+                      <li
+                        class="list-group-item d-flex justify-content-between align-items-center"
+                      >
+                        <a href="#">Vestibulum at eros</a>
+                        <i class="las la-angle-right"></i>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="row my-2">
+                <div class="col-sm-3 p-0">
+                  <div class="card" style="width: 16rem">
+                    <div class="card-header">Featured</div>
+                    <ul class="list-group list-group-flush">
+                      <li
+                        class="list-group-item d-flex justify-content-between align-items-center"
+                      >
+                        <a href="#">Cras justo odio</a>
+                        <i class="las la-angle-right"></i>
+                      </li>
+                      <li
+                        class="list-group-item d-flex justify-content-between align-items-center"
+                      >
+                        <a href="#">Dapibus ac facilisis in</a>
+                        <i class="las la-angle-right"></i>
+                      </li>
+                      <li
+                        class="list-group-item d-flex justify-content-between align-items-center"
+                      >
+                        <a href="#">Vestibulum at eros</a>
+                        <i class="las la-angle-right"></i>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="col-sm-3 p-0">
+                  <div class="card" style="width: 16rem">
+                    <div class="card-header">Featured</div>
+                    <ul class="list-group list-group-flush">
+                      <li
+                        class="list-group-item d-flex justify-content-between align-items-center"
+                      >
+                        <a href="#">Cras justo odio</a>
+                        <i class="las la-angle-right"></i>
+                      </li>
+                      <li
+                        class="list-group-item d-flex justify-content-between align-items-center"
+                      >
+                        <a href="#">Dapibus ac facilisis in</a>
+                        <i class="las la-angle-right"></i>
+                      </li>
+                      <li
+                        class="list-group-item d-flex justify-content-between align-items-center"
+                      >
+                        <a href="#">Vestibulum at eros</a>
+                        <i class="las la-angle-right"></i>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="col-sm-3 p-0">
+                  <div class="card" style="width: 16rem">
+                    <div class="card-header">Featured</div>
+                    <ul class="list-group list-group-flush">
+                      <li
+                        class="list-group-item d-flex justify-content-between align-items-center"
+                      >
+                        <a href="#">Cras justo odio</a>
+                        <i class="las la-angle-right"></i>
+                      </li>
+                      <li
+                        class="list-group-item d-flex justify-content-between align-items-center"
+                      >
+                        <a href="#">Dapibus ac facilisis in</a>
+                        <i class="las la-angle-right"></i>
+                      </li>
+                      <li
+                        class="list-group-item d-flex justify-content-between align-items-center"
+                      >
+                        <a href="#">Vestibulum at eros</a>
+                        <i class="las la-angle-right"></i>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="col-sm-3 p-0">
+                  <div class="card" style="width: 16rem">
+                    <div class="card-header">Featured</div>
+                    <ul class="list-group list-group-flush">
+                      <li
+                        class="list-group-item d-flex justify-content-between align-items-center"
+                      >
+                        <a href="#">Cras justo odio</a>
+                        <i class="las la-angle-right"></i>
+                      </li>
+                      <li
+                        class="list-group-item d-flex justify-content-between align-items-center"
+                      >
+                        <a href="#">Dapibus ac facilisis in</a>
+                        <i class="las la-angle-right"></i>
+                      </li>
+                      <li
+                        class="list-group-item d-flex justify-content-between align-items-center"
+                      >
+                        <a href="#">Vestibulum at eros</a>
+                        <i class="las la-angle-right"></i>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="row my-2">
+                <div class="col-sm-3 p-0">
+                  <div class="card" style="width: 16rem">
+                    <div class="card-header">Featured</div>
+                    <ul class="list-group list-group-flush">
+                      <li
+                        class="list-group-item d-flex justify-content-between align-items-center"
+                      >
+                        <a href="#">Cras justo odio</a>
+                        <i class="las la-angle-right"></i>
+                      </li>
+                      <li
+                        class="list-group-item d-flex justify-content-between align-items-center"
+                      >
+                        <a href="#">Dapibus ac facilisis in</a>
+                        <i class="las la-angle-right"></i>
+                      </li>
+                      <li
+                        class="list-group-item d-flex justify-content-between align-items-center"
+                      >
+                        <a href="#">Vestibulum at eros</a>
+                        <i class="las la-angle-right"></i>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="col-sm-3 p-0">
+                  <div class="card" style="width: 16rem">
+                    <div class="card-header">Featured</div>
+                    <ul class="list-group list-group-flush">
+                      <li
+                        class="list-group-item d-flex justify-content-between align-items-center"
+                      >
+                        <a href="#">Cras justo odio</a>
+                        <i class="las la-angle-right"></i>
+                      </li>
+                      <li
+                        class="list-group-item d-flex justify-content-between align-items-center"
+                      >
+                        <a href="#">Dapibus ac facilisis in</a>
+                        <i class="las la-angle-right"></i>
+                      </li>
+                      <li
+                        class="list-group-item d-flex justify-content-between align-items-center"
+                      >
+                        <a href="#">Vestibulum at eros</a>
+                        <i class="las la-angle-right"></i>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="col-sm-3 p-0">
+                  <div class="card" style="width: 16rem">
+                    <div class="card-header">Featured</div>
+                    <ul class="list-group list-group-flush">
+                      <li
+                        class="list-group-item d-flex justify-content-between align-items-center"
+                      >
+                        <a href="#">Cras justo odio</a>
+                        <i class="las la-angle-right"></i>
+                      </li>
+                      <li
+                        class="list-group-item d-flex justify-content-between align-items-center"
+                      >
+                        <a href="#">Dapibus ac facilisis in</a>
+                        <i class="las la-angle-right"></i>
+                      </li>
+                      <li
+                        class="list-group-item d-flex justify-content-between align-items-center"
+                      >
+                        <a href="#">Vestibulum at eros</a>
+                        <i class="las la-angle-right"></i>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="col-sm-3 p-0">
+                  <div class="card" style="width: 16rem">
+                    <div class="card-header">Featured</div>
+                    <ul class="list-group list-group-flush">
+                      <li
+                        class="list-group-item d-flex justify-content-between align-items-center"
+                      >
+                        <a href="#">Cras justo odio</a>
+                        <i class="las la-angle-right"></i>
+                      </li>
+                      <li
+                        class="list-group-item d-flex justify-content-between align-items-center"
+                      >
+                        <a href="#">Dapibus ac facilisis in</a>
+                        <i class="las la-angle-right"></i>
+                      </li>
+                      <li
+                        class="list-group-item d-flex justify-content-between align-items-center"
+                      >
+                        <a href="#">Vestibulum at eros</a>
+                        <i class="las la-angle-right"></i>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -71,13 +409,13 @@
             <div class="d-flex flex-row">
               <div class="card shadow-sm mx-2" style="width: 18rem">
                 <div class="card-body">
-                    <div class="rating">
-                        <i class="las la-star"></i>
-                        <i class="las la-star"></i>
-                        <i class="las la-star"></i>
-                        <i class="las la-star"></i>
-                        <i class="las la-star"></i>
-                    </div>
+                  <div class="rating">
+                    <i class="las la-star"></i>
+                    <i class="las la-star"></i>
+                    <i class="las la-star"></i>
+                    <i class="las la-star"></i>
+                    <i class="las la-star"></i>
+                  </div>
                   <div class="fs-13 pb-2">
                     <span>
                       Lorem Ipsum is simply dummy text of the printing and
@@ -95,13 +433,13 @@
               </div>
               <div class="card shadow-sm mx-2" style="width: 18rem">
                 <div class="card-body">
-                    <div class="rating">
-                        <i class="las la-star"></i>
-                        <i class="las la-star"></i>
-                        <i class="las la-star"></i>
-                        <i class="las la-star"></i>
-                        <i class="las la-star"></i>
-                    </div>
+                  <div class="rating">
+                    <i class="las la-star"></i>
+                    <i class="las la-star"></i>
+                    <i class="las la-star"></i>
+                    <i class="las la-star"></i>
+                    <i class="las la-star"></i>
+                  </div>
                   <div class="fs-13 pb-2">
                     <span>
                       Lorem Ipsum is simply dummy text of the printing and
@@ -119,13 +457,13 @@
               </div>
               <div class="card shadow-sm mx-2" style="width: 18rem">
                 <div class="card-body">
-                    <div class="rating">
-                        <i class="las la-star"></i>
-                        <i class="las la-star"></i>
-                        <i class="las la-star"></i>
-                        <i class="las la-star"></i>
-                        <i class="las la-star"></i>
-                    </div>
+                  <div class="rating">
+                    <i class="las la-star"></i>
+                    <i class="las la-star"></i>
+                    <i class="las la-star"></i>
+                    <i class="las la-star"></i>
+                    <i class="las la-star"></i>
+                  </div>
                   <div class="fs-13 pb-2">
                     <span>
                       Lorem Ipsum is simply dummy text of the printing and
@@ -143,13 +481,13 @@
               </div>
               <div class="card shadow-sm mx-2" style="width: 18rem">
                 <div class="card-body">
-                    <div class="rating">
-                        <i class="las la-star"></i>
-                        <i class="las la-star"></i>
-                        <i class="las la-star"></i>
-                        <i class="las la-star"></i>
-                        <i class="las la-star"></i>
-                    </div>
+                  <div class="rating">
+                    <i class="las la-star"></i>
+                    <i class="las la-star"></i>
+                    <i class="las la-star"></i>
+                    <i class="las la-star"></i>
+                    <i class="las la-star"></i>
+                  </div>
                   <div class="fs-13 pb-2">
                     <span>
                       Lorem Ipsum is simply dummy text of the printing and
@@ -165,7 +503,6 @@
                   </div>
                 </div>
               </div>
-              
             </div>
           </div>
         </div>
