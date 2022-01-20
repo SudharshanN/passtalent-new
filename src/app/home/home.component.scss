@@ -92,6 +92,7 @@
   line-height: 1.428571429;
   border-radius: 50%;
   border: 1px solid gray;
+  color: white;
 }
 .what-next {
   margin: 0 150px;
@@ -111,7 +112,6 @@
 .card-header {
   font-size: 12.6px;
   font-weight: bold;
-  color: #f28705;
 }
 .list-group {
   .list-group-item {
@@ -119,10 +119,58 @@
       color: black;
       text-decoration: none;
       font-size: 13px;
+    }
+  }
+}
+.col-sm-3:nth-child(2n + 1) .list-group {
+  .list-group-item {
+    a {
       &:hover {
         text-decoration: underline;
-        color: red;
+        color: #f28705;
       }
     }
   }
+}
+.col-sm-3:nth-child(2n + 2) .list-group {
+  .list-group-item {
+    a {
+      &:hover {
+        text-decoration: underline;
+        color: #0367a6;
+      }
+    }
+  }
+}
+.col-sm-3:nth-child(2n + 3) .list-group {
+  .list-group-item {
+    a {
+      &:hover {
+        text-decoration: underline;
+        color: #bf0413;
+      }
+    }
+  }
+}
+.col-sm-3:nth-child(2n + 4) .list-group {
+  .list-group-item {
+    a {
+      &:hover {
+        text-decoration: underline;
+        color: #781f97;
+      }
+    }
+  }
+}
+.col-sm-3:nth-child(2n + 1) .card-header {
+  color: #f28705;
+}
+.col-sm-3:nth-child(2n + 2) .card-header {
+  color: #0367a6;
+}
+.col-sm-3:nth-child(2n + 3) .card-header {
+  color: #bf0413;
+}
+.col-sm-3:nth-child(2n + 4) .card-header {
+  color: #781f97;
 }
