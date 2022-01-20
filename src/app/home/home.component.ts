@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
+import { MatDialog } from "@angular/material/dialog";
 import { OwlOptions } from 'ngx-owl-carousel-o';
+import { CourseComponent } from '../course/course.component';
 
 @Component({
   selector: 'app-home',
@@ -99,9 +101,15 @@ export class HomeComponent implements OnInit {
     },
     nav: true
   };
-  constructor() { }
+  constructor(public dialog: MatDialog) { }
 
   ngOnInit(): void {
+  }
+  openCourse(){
+    const dialogRef = this.dialog.open(CourseComponent, {
+      width: "50%",
+    });
+    dialogRef.afterClosed().subscribe((result) => {});
   }
 
 }

@@ -9,6 +9,8 @@ import { FooterComponent } from './footer/footer.component';
 import { HomeComponent } from './home/home.component';
 import { ContactusComponent } from './contactus/contactus.component';
 import { ServicesComponent } from './services/services.component';
+import { CourseComponent } from './course/course.component';
+import { MaterialModule } from './material/material.module';
 
 @NgModule({
   declarations: [
@@ -17,12 +19,14 @@ import { ServicesComponent } from './services/services.component';
     FooterComponent,
     HomeComponent,
     ContactusComponent,
-    ServicesComponent
+    ServicesComponent,
+    CourseComponent
   ],
   imports: [
     BrowserModule,
     CarouselModule,
     BrowserAnimationsModule,
+    MaterialModule,
     AppRoutingModule
   ],
   providers: [],
