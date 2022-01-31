@@ -31,8 +31,37 @@ footer {
   margin: 0.25rem 0.5rem;
 }
 
+.icons {
+  margin-right: 40px;
+}
+
 @media (max-width: 767px) {
   footer {
     padding-top: 20px;
   }
+  
+}
+
+@media screen and (min-width: 320px ) and (max-width:425px) {
+  
+  footer {
+    padding-top: 0px;
+    padding-right: 0px;
+  ul {
+    flex-direction: column;
+    display: flex;
+    padding-left: 20px;
+    li {
+      a {
+        font-size: 14px;
+      }
+    }
+  }
+}
+.social-div {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
 }
