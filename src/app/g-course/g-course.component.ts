@@ -1,13 +1,12 @@
 import { Component, OnInit, ViewChild, ElementRef, AfterViewInit } from '@angular/core';
 import * as d3 from "d3";
-import * as dataJson from './data_.json';
-
+import * as dataJson from './g_data.json';
 @Component({
-  selector: 'app-course',
-  templateUrl: './course.component.html',
-  styleUrls: ['./course.component.scss']
+  selector: 'app-g-course',
+  templateUrl: './g-course.component.html',
+  styleUrls: ['./g-course.component.scss']
 })
-export class CourseComponent implements OnInit, AfterViewInit {
+export class GCourseComponent implements OnInit {
 
   @ViewChild('chart', { static: true }) private chartContainer: ElementRef;
 
@@ -22,7 +21,7 @@ export class CourseComponent implements OnInit, AfterViewInit {
   barHeight = 35;
   barRadius = 15;
   //let barWidth = (width - margin.left - margin.right) * 0.8;
-  widthAndDepth = 195;
+  widthAndDepth = 175;
   barWidth = this.widthAndDepth * 1;
   barDepth = this.widthAndDepth + 40;
   verticalSpace = 15;

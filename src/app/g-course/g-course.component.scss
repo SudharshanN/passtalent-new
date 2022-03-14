@@ -1,12 +1,11 @@
 .d3-chart {
-    // width: 10000px !important;
-    // min-width: 700px !important;
-    // min-height:300px;
-    // border: 1px solid gray;
+    width: 1000px !important;
+    min-width: 1000px !important;
+    min-height:600px;
+    border: 1px solid gray;
     overflow-y: scroll;
-    // overflow-x: scroll;
-    height: 480px;
-    width: 2000px;
+    overflow-x: auto !important;
+    height: 600px;
 }
 
 ::ng-deep #chart4svg .node rect {

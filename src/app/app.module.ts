@@ -11,6 +11,9 @@ import { ContactusComponent } from './contactus/contactus.component';
 import { ServicesComponent } from './services/services.component';
 import { CourseComponent } from './course/course.component';
 import { MaterialModule } from './material/material.module';
+import { UgCourseComponent } from './ug-course/ug-course.component';
+import { GCourseComponent } from './g-course/g-course.component';
+import { PgCourseComponent } from './pg-course/pg-course.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +23,10 @@ import { MaterialModule } from './material/material.module';
     HomeComponent,
     ContactusComponent,
     ServicesComponent,
-    CourseComponent
+    CourseComponent,
+    UgCourseComponent,
+    GCourseComponent,
+    PgCourseComponent
   ],
   imports: [
     BrowserModule,

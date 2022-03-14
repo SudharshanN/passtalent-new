@@ -2,6 +2,9 @@ import { Component, OnInit } from '@angular/core';
 import { MatDialog } from "@angular/material/dialog";
 import { OwlOptions } from 'ngx-owl-carousel-o';
 import { CourseComponent } from '../course/course.component';
+import { GCourseComponent } from '../g-course/g-course.component';
+import { PgCourseComponent } from '../pg-course/pg-course.component';
+import { UgCourseComponent } from '../ug-course/ug-course.component';
 
 @Component({
   selector: 'app-home',
@@ -105,11 +108,27 @@ export class HomeComponent implements OnInit {
 
   ngOnInit(): void {
   }
-  openCourse(){
+  openCourse(i){
+    if(i === 1){
     const dialogRef = this.dialog.open(CourseComponent, {
-      width: "50%",
+      
     });
     dialogRef.afterClosed().subscribe((result) => {});
+  } else if(i === 2){
+    const dialogRef = this.dialog.open(UgCourseComponent, {
+    });
+    dialogRef.afterClosed().subscribe((result) => {});
+  } else if(i === 3){
+    const dialogRef = this.dialog.open(GCourseComponent, {
+      width: "100%",
+    });
+    dialogRef.afterClosed().subscribe((result) => {});
+  } else if(i === 4){
+    const dialogRef = this.dialog.open(PgCourseComponent, {
+      width: "100%",
+    });
+    dialogRef.afterClosed().subscribe((result) => {});
+  }
   }
 
 }

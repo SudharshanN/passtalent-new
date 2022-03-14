@@ -1,0 +1,547 @@
+{
+  "name": "Graduation",
+  "tooltip": "Graduation",
+  "contextMenu": {
+    "title":"Graduation",
+    "content": "",
+    "subContent":""
+  },
+  "value": 100,
+  "children": [
+    {
+      "name": "Engineering Students",
+      "tooltip": "(2-Years)",
+      "contextMenu": {
+        "title":"B1 | A1",
+        "content": "",
+        "subContent":""
+      },
+      "value": 100,
+      "children":[
+        {
+          "name": "Job",
+          "tooltip": "Job",
+          "contextMenu": {
+            "title":"ES_Job",
+            "content": "",
+            "subContent":""
+          },
+          "value": 100
+        },
+        {
+          "name": "M.Tec",
+          "tooltip": "M.Tec",
+          "contextMenu": {
+            "title":"ES_MTec",
+            "content": "",
+            "subContent":""
+          },
+          "value": 100
+        },
+        {
+          "name": "MBA",
+          "tooltip": "MBA",
+          "contextMenu": {
+            "title":"ES_MBA",
+            "content": "",
+            "subContent":""
+          },
+          "value": 100
+        }
+      ]
+    },
+    {
+      "name": "Medical Students",
+      "tooltip": "(3-Years)",
+      "contextMenu": {
+        "title":"B2 | A1",
+        "content": "",
+        "subContent":""
+      },
+      "value": 200,
+      "children":[
+        {
+          "name": "Job",
+          "tooltip": "Job",
+          "contextMenu": {
+            "title":"MS_Job",
+            "content": "",
+            "subContent":""
+          },
+          "value": 100
+        },
+        {
+          "name": "Practice",
+          "tooltip": "Practice",
+          "contextMenu": {
+            "title":"MS_Practice",
+            "content": "",
+            "subContent":""
+          },
+          "value": 100
+        },
+        {
+          "name": "MS",
+          "tooltip": "MS",
+          "contextMenu": {
+            "title":"MS_MS",
+            "content": "",
+            "subContent":""
+          },
+          "value": 100
+        },
+        {
+          "name": "MD",
+          "tooltip": "MD",
+          "contextMenu": {
+            "title":"MS_MD",
+            "content": "",
+            "subContent":""
+          },
+          "value": 100
+        }
+      ]
+    },
+    {
+        "name": "Degree Students",
+        "tooltip": "(2-Years)",
+        "contextMenu": {
+          "title":"B3 | A1",
+          "content": "",
+          "subContent":""
+        },
+        "value": 200,
+        "children":[
+          {
+            "name": "BA Students",
+            "tooltip": "BA Students",
+            "contextMenu": {
+              "title":"BA_Students",
+              "content": "",
+              "subContent":""
+            },
+            "value": 100,
+            "children":[
+              {
+                "name": "Job",
+                "tooltip": "Job",
+                "contextMenu": {
+                  "title":"Job",
+                  "content": "",
+                  "subContent":""
+                },
+                "value": 100
+              },
+              {
+                "name": "MA",
+                "tooltip": "MA",
+                "contextMenu": {
+                  "title":"MA",
+                  "content": "",
+                  "subContent":""
+                },
+                "value": 100
+              },
+              {
+                "name": "B.Ed",
+                "tooltip": "B.Ed",
+                "contextMenu": {
+                  "title":"BED",
+                  "content": "",
+                  "subContent":""
+                },
+                "value": 100
+              },
+              {
+                "name": "LLB ",
+                "tooltip": "LLB ",
+                "contextMenu": {
+                  "title":"LLB",
+                  "content": "",
+                  "subContent":""
+                },
+                "value": 100
+              },
+              {
+                "name": "MBA",
+                "tooltip": "MBA",
+                "contextMenu": {
+                  "title":"MBA",
+                  "content": "",
+                  "subContent":""
+                },
+                "value": 100
+              },
+              {
+                "name": "Phd",
+                "tooltip": "Phd",
+                "contextMenu": {
+                  "title":"Phd",
+                  "content": "",
+                  "subContent":""
+                },
+                "value": 100
+              }
+            ]
+          },
+          {
+            "name": "B.Sc Students",
+            "tooltip": "B.Sc Students",
+            "contextMenu": {
+              "title":"BSC_Students",
+              "content": "",
+              "subContent":""
+            },
+            "value": 100,
+            "children":[
+              {
+                "name": "Job",
+                "tooltip": "Job",
+                "contextMenu": {
+                  "title":"Job",
+                  "content": "",
+                  "subContent":""
+                },
+                "value": 100
+              },
+              {
+                "name": "MSC",
+                "tooltip": "MSC",
+                "contextMenu": {
+                  "title":"MSC",
+                  "content": "",
+                  "subContent":""
+                },
+                "value": 100
+              },
+              {
+                "name": "B.Ed",
+                "tooltip": "B.Ed",
+                "contextMenu": {
+                  "title":"BCOMStudents",
+                  "content": "",
+                  "subContent":""
+                },
+                "value": 100
+              },
+              {
+                "name": "LLB",
+                "tooltip": "LLB",
+                "contextMenu": {
+                  "title":"LLB",
+                  "content": "",
+                  "subContent":""
+                },
+                "value": 100
+              },
+              {
+                "name": "Phd",
+                "tooltip": "Phd",
+                "contextMenu": {
+                  "title":"Phd",
+                  "content": "",
+                  "subContent":""
+                },
+                "value": 100
+              }
+            ]
+          },
+          {
+            "name": "B.Com Students",
+            "tooltip": "B.Com Students",
+            "contextMenu": {
+              "title":"BCOMStudents",
+              "content": "",
+              "subContent":""
+            },
+            "value": 100,
+            "children":[
+              {
+                "name": "Job",
+                "tooltip": "Job",
+                "contextMenu": {
+                  "title":"Job",
+                  "content": "",
+                  "subContent":""
+                },
+                "value": 100
+              },
+              {
+                "name": "M.Com",
+                "tooltip": "M.Com",
+                "contextMenu": {
+                  "title":"MCOM",
+                  "content": "",
+                  "subContent":""
+                },
+                "value": 100
+              },
+              {
+                "name": "MBA",
+                "tooltip": "MBA",
+                "contextMenu": {
+                  "title":"MBA",
+                  "content": "",
+                  "subContent":""
+                },
+                "value": 100
+              },
+              {
+                "name": "LLB",
+                "tooltip": "LLB",
+                "contextMenu": {
+                  "title":"LLB",
+                  "content": "",
+                  "subContent":""
+                },
+                "value": 100
+              },
+              {
+                "name": "Phd",
+                "tooltip": "Phd",
+                "contextMenu": {
+                  "title":"Phd",
+                  "content": "",
+                  "subContent":""
+                },
+                "value": 100
+              }
+            ]
+          },
+          {
+            "name": "LLB Students",
+            "tooltip": "LLB Students",
+            "contextMenu": {
+              "title":"LLBStudents",
+              "content": "",
+              "subContent":""
+            },
+            "value": 100,
+            "children":[
+              {
+                "name": "Job",
+                "tooltip": "Job",
+                "contextMenu": {
+                  "title":"Job",
+                  "content": "",
+                  "subContent":""
+                },
+                "value": 100
+              },
+              {
+                "name": "DTL",
+                "tooltip": "DTL",
+                "contextMenu": {
+                  "title":"DTL",
+                  "content": "",
+                  "subContent":""
+                },
+                "value": 100
+              },
+              {
+                "name": "DLL",
+                "tooltip": "DLL",
+                "contextMenu": {
+                  "title":"DLL",
+                  "content": "",
+                  "subContent":""
+                },
+                "value": 100
+              },
+              {
+                "name": "LLM",
+                "tooltip": "LLM",
+                "contextMenu": {
+                  "title":"LLM",
+                  "content": "",
+                  "subContent":""
+                },
+                "value": 100
+              }
+            ]
+          },
+          {
+            "name": "BCA Students",
+            "tooltip": "BCA Students",
+            "contextMenu": {
+              "title":"BCAStudents",
+              "content": "",
+              "subContent":""
+            },
+            "value": 100,
+            "children":[
+              {
+                "name": "Job",
+                "tooltip": "Job",
+                "contextMenu": {
+                  "title":"Job",
+                  "content": "",
+                  "subContent":""
+                },
+                "value": 100
+              },
+              {
+                "name": "MCA",
+                "tooltip": "MCA",
+                "contextMenu": {
+                  "title":"MCA",
+                  "content": "",
+                  "subContent":""
+                },
+                "value": 100
+              },
+              {
+                "name": "MBA",
+                "tooltip": "MBA",
+                "contextMenu": {
+                  "title":"MBA",
+                  "content": "",
+                  "subContent":""
+                },
+                "value": 100
+              },
+              {
+                "name": "MSc.Comp",
+                "tooltip": "MSc.Comp",
+                "contextMenu": {
+                  "title":"MSCComp",
+                  "content": "",
+                  "subContent":""
+                },
+                "value": 100
+              },
+              {
+                "name": "Phd",
+                "tooltip": "Phd",
+                "contextMenu": {
+                  "title":"Phd",
+                  "content": "",
+                  "subContent":""
+                },
+                "value": 100
+              }
+            ]
+          },
+          {
+            "name": "BBA/BBM Students",
+            "tooltip": "BBA/BBM Students",
+            "contextMenu": {
+              "title":"BBA_BBM_Students",
+              "content": "",
+              "subContent":""
+            },
+            "value": 100,
+            "children":[
+              {
+                "name": "Job",
+                "tooltip": "Job",
+                "contextMenu": {
+                  "title":"Job",
+                  "content": "",
+                  "subContent":""
+                },
+                "value": 100
+              },
+              {
+                "name": "MBA",
+                "tooltip": "MBA",
+                "contextMenu": {
+                  "title":"MBA",
+                  "content": "",
+                  "subContent":""
+                },
+                "value": 100
+              },
+              {
+                "name": "Phd",
+                "tooltip": "Phd",
+                "contextMenu": {
+                  "title":"Phd",
+                  "content": "",
+                  "subContent":""
+                },
+                "value": 100
+              }
+            ]
+          }
+        ]
+       
+      },
+      {
+        "name":"Teaching Students",
+        "tooltip": "(3-Years)",
+        "contextMenu": {
+          "title":"B4",
+          "content":"",
+          "subContent":""
+        },
+        "value":200,
+        "children":[
+          {
+            "name": "B.Ed / B.PEd",
+            "tooltip": "B.Ed/B.PEd",
+            "contextMenu": {
+              "title":"BED/BPED",
+              "content": "",
+              "subContent":""
+            },
+            "value": 100,
+            "children":[
+              {
+                "name": "Job",
+                "tooltip": "Job",
+                "contextMenu": {
+                  "title":"Job",
+                  "content": "",
+                  "subContent":""
+                },
+                "value": 100
+              }
+            ]
+          },
+          {
+            "name": "M.Ed",
+            "tooltip": "M.Ed",
+            "contextMenu": {
+              "title":"M_ED",
+              "content": "",
+              "subContent":""
+            },
+            "value": 100,
+            "children":[
+              {
+                "name": "Job",
+                "tooltip": "Job",
+                "contextMenu": {
+                  "title":"Job",
+                  "content": "",
+                  "subContent":""
+                },
+                "value": 100
+              }
+            ]
+          },
+          {
+            "name": "Phd",
+            "tooltip": "Phd",
+            "contextMenu": {
+              "title":"PHD",
+              "content": "",
+              "subContent":""
+            },
+            "value": 100
+          }
+        ]
+      },
+      {
+        "name":"Others",
+        "tooltip": "IIIT",
+        "contextMenu": {
+          "title":"IIIT",
+          "content":"",
+          "subContent":""
+        },
+        "value":200
+      }
+  ]
+}

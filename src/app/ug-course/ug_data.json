@@ -8,6 +8,16 @@
   },
   "value": 100,
   "children": [
+      {
+  "name": "Under Graduation",
+  "tooltip": "Under Graduation",
+  "contextMenu": {
+    "title":"under graduation",
+    "content": "",
+    "subContent":""
+  },
+  "value": 100
+    },
     {
       "name": "Intermediate",
       "tooltip": "(2-Years)",

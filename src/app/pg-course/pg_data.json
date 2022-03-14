@@ -1,0 +1,292 @@
+{
+  "name": "Post Graduation",
+  "tooltip": "Post Graduation",
+  "contextMenu": {
+    "title":"Post Graduation",
+    "content": "",
+    "subContent":""
+  },
+  "value": 100,
+  "children":[
+    {
+      "name": "MA Telugu",
+      "tooltip": "MA Telugu",
+      "contextMenu": {
+        "title":"MA_Telugu",
+        "content": "",
+        "subContent":""
+      },
+      "value": 100
+    },
+    {
+      "name": "MA English",
+      "tooltip": "MA English",
+      "contextMenu": {
+        "title":"MA_English",
+        "content": "",
+        "subContent":""
+      },
+      "value": 100
+    },
+    {
+      "name": "MA Hindi",
+      "tooltip": "MA Hindi",
+      "contextMenu": {
+        "title":"MA_Hindi",
+        "content": "",
+        "subContent":""
+      },
+      "value": 100
+    },
+    {
+      "name": "MA Economics",
+      "tooltip": "MA Economics",
+      "contextMenu": {
+        "title":"MA_Economics",
+        "content": "",
+        "subContent":""
+      },
+      "value": 100
+    },
+    {
+      "name": "MA History",
+      "tooltip": "MA History",
+      "contextMenu": {
+        "title":"MA_History",
+        "content": "",
+        "subContent":""
+      },
+      "value": 100
+    },
+    {
+      "name": "MA Sociology",
+      "tooltip": "MA Sociology",
+      "contextMenu": {
+        "title":"MA_Sociology",
+        "content": "",
+        "subContent":""
+      },
+      "value": 100
+    },
+    {
+      "name": "MA Political Sci.",
+      "tooltip": "MA Political Sci.",
+      "contextMenu": {
+        "title":"MA_Political_Sci",
+        "content": "",
+        "subContent":""
+      },
+      "value": 100
+    },
+    {
+      "name": "MA Public Adm.",
+      "tooltip": "MA Public Adm",
+      "contextMenu": {
+        "title":"MA_Public_Adm",
+        "content": "",
+        "subContent":""
+      },
+      "value": 100
+    },
+    {
+      "name": "MS Public rel.",
+      "tooltip": "MS Public rel.",
+      "contextMenu": {
+        "title":"Ms_Public_rel",
+        "content": "",
+        "subContent":""
+      },
+      "value": 100
+    },
+    {
+      "name": "M.Sc Computers",
+      "tooltip": "M.Sc Computers",
+      "contextMenu": {
+        "title":"MSC_Computers",
+        "content": "",
+        "subContent":""
+      },
+      "value": 100
+    },
+    {
+      "name": "M.Com",
+      "tooltip": "M.Com",
+      "contextMenu": {
+        "title":"MCOM",
+        "content": "",
+        "subContent":""
+      },
+      "value": 100
+    },
+    {
+      "name": "MCA",
+      "tooltip": "MCA",
+      "contextMenu": {
+        "title":"MCA",
+        "content": "",
+        "subContent":""
+      },
+      "value": 100
+    },
+    {
+      "name": "MBA",
+      "tooltip": "MBA",
+      "contextMenu": {
+        "title":"MBA",
+        "content": "",
+        "subContent":""
+      },
+      "value": 100
+    },
+    {
+      "name": "MA Archaeolog",
+      "tooltip": "MA Archaeolog",
+      "contextMenu": {
+        "title":"MA_Archaeolog",
+        "content": "",
+        "subContent":""
+      },
+      "value": 100
+    },
+    {
+      "name": "M.Sc Maths",
+      "tooltip": "M.Sc Maths",
+      "contextMenu": {
+        "title":"M.Sc_Maths",
+        "content": "",
+        "subContent":""
+      },
+      "value": 100
+    },
+    {
+      "name": "M.Sc Chemistry",
+      "tooltip": "M.Sc Chemistry",
+      "contextMenu": {
+        "title":"MSC_Chemistry",
+        "content": "",
+        "subContent":""
+      },
+      "value": 100
+    },
+    {
+      "name": "M.Sc Botany",
+      "tooltip": "M.Sc Botany",
+      "contextMenu": {
+        "title":"MSC_Botany",
+        "content": "",
+        "subContent":""
+      },
+      "value": 100
+    },
+    {
+      "name": "M.Sc Zoology",
+      "tooltip": "M.Sc Zoology",
+      "contextMenu": {
+        "title":"MSC_Zoology",
+        "content": "",
+        "subContent":""
+      },
+      "value": 100
+    },
+    {
+      "name": "M.Sc Physics",
+      "tooltip": "M.Sc Physics",
+      "contextMenu": {
+        "title":"MSC_Physics",
+        "content": "",
+        "subContent":""
+      },
+      "value": 100
+    },
+    {
+      "name": "M.Sc Home Sci.",
+      "tooltip": "M.Sc Home Sci.",
+      "contextMenu": {
+        "title":"MSC_Home_Sci",
+        "content": "",
+        "subContent":""
+      },
+      "value": 100
+    },
+    {
+      "name": "M.Sc Anthrop",
+      "tooltip": "M.Sc Anthrop",
+      "contextMenu": {
+        "title":"MSC_Anthrop",
+        "content": "",
+        "subContent":""
+      },
+      "value": 100
+    },
+    {
+      "name": "M.Sc Psychology",
+      "tooltip": "M.Sc Psychology",
+      "contextMenu": {
+        "title":"MSC_Psychology",
+        "content": "",
+        "subContent":""
+      },
+      "value": 100
+    },
+    {
+      "name": "M.Sc Bio-Chemis",
+      "tooltip": "M.Sc Bio-Chemis",
+      "contextMenu": {
+        "title":"MSC_Chemis",
+        "content": "",
+        "subContent":""
+      },
+      "value": 100
+    },
+    {
+      "name": "M.Sc Bio-Tecno",
+      "tooltip": "M.Sc Bio-Tecno",
+      "contextMenu": {
+        "title":"MSC_Bio_Tecno",
+        "content": "",
+        "subContent":""
+      },
+      "value": 100
+    },
+    {
+      "name": "M.Sc Micro biolo",
+      "tooltip": "M.Sc Micro biolo",
+      "contextMenu": {
+        "title":"M.Sc_Micro_biolo",
+        "content": "",
+        "subContent":""
+      },
+      "value": 100
+    },
+    {
+      "name": "M.Sc Virology",
+      "tooltip": "M.Sc Virology",
+      "contextMenu": {
+        "title":"MSC_Virology",
+        "content": "",
+        "subContent":""
+      },
+      "value": 100
+    },
+    {
+      "name": "MLIC",
+      "tooltip": "MLIC",
+      "contextMenu": {
+        "title":"MLIC",
+        "content": "",
+        "subContent":""
+      },
+      "value": 100
+    },
+    {
+      "name": "LLM",
+      "tooltip": "LLM",
+      "contextMenu": {
+        "title":"LLM",
+        "content": "",
+        "subContent":""
+      },
+      "value": 100
+    }
+  ]
+}
